@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-node_modules/
-dist/
-
-=======
 # ==================================================
 # FITPRO ELITE — GITIGNORE
 # Projeto fullstack React + Vite + Node + SQLite
@@ -26,30 +21,16 @@ coverage/
 temp/
 
 # Ambiente
->>>>>>> 98268b5 (feat: implement FitPro sprint 5 innovation and AI layer)
 .env
 .env.*
 !.env.example
 
-<<<<<<< HEAD
-=======
 # Banco local SQLite
->>>>>>> 98268b5 (feat: implement FitPro sprint 5 innovation and AI layer)
 data/*.db
 data/*.sqlite
 data/*.sqlite3
 data/*.sqlite-shm
 data/*.sqlite-wal
-<<<<<<< HEAD
-!data/.gitkeep
-
-storage/uploads/
-server/uploads/
-uploads/
-
-.DS_Store
-.vscode/
-=======
 server/data/*.db
 server/data/*.sqlite
 server/data/*.sqlite3
@@ -125,4 +106,3 @@ tmp/
 runtime/
 session/
 sessions/
->>>>>>> 98268b5 (feat: implement FitPro sprint 5 innovation and AI layer)

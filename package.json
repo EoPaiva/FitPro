@@ -15,12 +15,12 @@
     "dev:api": "node --watch server/index.mjs",
     "dev:client": "vite --host 0.0.0.0"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@vitejs/plugin-basic-ssl": "latest",
     "typescript": "latest",
     "vite": "latest"
   },
+  "devDependencies": {},
   "engines": {
     "node": ">=22.5.0"
   }
