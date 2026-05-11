@@ -1,0 +1,27 @@
+{
+  "name": "fitpro-elite-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "FitPro Elite — base fullstack real para personal trainers com API, banco, auth, permissões e comprovantes privados.",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "client": "vite --host 0.0.0.0",
+    "server": "node --watch server/index.mjs",
+    "build": "tsc --noEmit && vite build",
+    "type-check": "tsc --noEmit",
+    "start": "node server/index.mjs",
+    "reset:db": "node server/seed.mjs --reset",
+    "dev:api": "node --watch server/index.mjs",
+    "dev:client": "vite --host 0.0.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}

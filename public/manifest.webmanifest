@@ -1,0 +1,12 @@
+{
+  "name": "FitPro Elite — Plataforma Fitness Premium",
+  "short_name": "FitPro",
+  "description": "Plataforma fullstack premium para personal trainers e alunos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "64x64", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
