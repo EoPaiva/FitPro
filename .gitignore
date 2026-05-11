@@ -1,0 +1,128 @@
+<<<<<<< HEAD
+node_modules/
+dist/
+
+=======
+# ==================================================
+# FITPRO ELITE — GITIGNORE
+# Projeto fullstack React + Vite + Node + SQLite
+# ==================================================
+
+# Dependências
+node_modules/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# Builds e outputs
+dist/
+build/
+.next/
+out/
+coverage/
+.vite/
+.cache/
+.tmp/
+temp/
+
+# Ambiente
+>>>>>>> 98268b5 (feat: implement FitPro sprint 5 innovation and AI layer)
+.env
+.env.*
+!.env.example
+
+<<<<<<< HEAD
+=======
+# Banco local SQLite
+>>>>>>> 98268b5 (feat: implement FitPro sprint 5 innovation and AI layer)
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*.sqlite-shm
+data/*.sqlite-wal
+<<<<<<< HEAD
+!data/.gitkeep
+
+storage/uploads/
+server/uploads/
+uploads/
+
+.DS_Store
+.vscode/
+=======
+server/data/*.db
+server/data/*.sqlite
+server/data/*.sqlite3
+server/data/*.sqlite-shm
+server/data/*.sqlite-wal
+
+# Mantém a pasta data versionada sem subir banco
+!data/.gitkeep
+!server/data/.gitkeep
+
+# Uploads privados
+uploads/
+storage/uploads/
+server/uploads/
+public/uploads/
+
+# Comprovantes, fotos e arquivos sensíveis
+*.proof
+*.receipt
+*.comprovante
+*.private
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Testes
+playwright-report/
+test-results/
+screenshots/
+videos/
+
+# Vercel local
+.vercel/
+
+# Arquivos compactados locais
+*.zip
+*.rar
+*.7z
+
+# Backup local
+backup/
+backups/
+*.bak
+
+# Certificados e chaves
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Dados temporários do projeto
+tmp/
+runtime/
+session/
+sessions/
+>>>>>>> 98268b5 (feat: implement FitPro sprint 5 innovation and AI layer)
