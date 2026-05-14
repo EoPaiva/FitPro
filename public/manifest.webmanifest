@@ -1,0 +1,51 @@
+{
+  "name": "FitPro Elite — Plataforma Fitness Premium",
+  "short_name": "FitPro Elite",
+  "description": "Plataforma fullstack premium para personal trainers e alunos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020807",
+  "theme_color": "#00e676",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/app-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "id": "/",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "categories": [
+    "health",
+    "fitness",
+    "productivity"
+  ],
+  "shortcuts": [
+    {
+      "name": "Treino de hoje",
+      "short_name": "Treino",
+      "url": "/dashboard?tab=treinos",
+      "description": "Abrir treino do dia"
+    },
+    {
+      "name": "Pagamentos",
+      "short_name": "Pagamentos",
+      "url": "/dashboard?tab=pagamentos",
+      "description": "Ver cobranças e comprovantes"
+    },
+    {
+      "name": "Ajuda FitPro",
+      "short_name": "Ajuda",
+      "url": "/dashboard?tab=ajuda",
+      "description": "Abrir central de ajuda"
+    }
+  ]
+}
