@@ -1,0 +1,48 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop stop-color="#22c55e"/><stop offset="1" stop-color="#a3e635"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feBlend in="SourceGraphic" in2="b"/></filter>
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .box{fill:#07120d;stroke:#1f5132;stroke-width:2}
+      .title{fill:#f8fafc;font-size:22px;font-weight:800}
+      .sub{fill:#94a3b8;font-size:15px}
+      .line{stroke:url(#g);stroke-width:3;stroke-linecap:round;stroke-dasharray:10 12;animation:flow 2.8s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-44}}
+      @media (prefers-reduced-motion: reduce){.line{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="560" rx="30" fill="#020503"/>
+  <text x="54" y="58" fill="#f8fafc" font-size="34" font-weight="900">Arquitetura FitPro Elite</text>
+  <text x="54" y="88" fill="#86efac" font-size="17" font-weight="700">Frontend Vite/TypeScript · Backend Node/Railway · SQLite local · Supabase Storage · Vercel</text>
+
+  <rect class="box" x="60" y="145" width="250" height="120" rx="22"/>
+  <text class="title" x="90" y="190">Frontend</text>
+  <text class="sub" x="90" y="220">Vite · TypeScript · CSS</text>
+  <text class="sub" x="90" y="245">Dashboard aluno/personal/dev</text>
+
+  <rect class="box" x="475" y="145" width="250" height="120" rx="22"/>
+  <text class="title" x="505" y="190">Backend API</text>
+  <text class="sub" x="505" y="220">Node.js · server/index.mjs</text>
+  <text class="sub" x="505" y="245">Auth · Treinos · Pagamentos</text>
+
+  <rect class="box" x="890" y="145" width="250" height="120" rx="22"/>
+  <text class="title" x="920" y="190">Infra</text>
+  <text class="sub" x="920" y="220">Railway API · Vercel App</text>
+  <text class="sub" x="920" y="245">Health checks · CORS</text>
+
+  <rect class="box" x="210" y="355" width="250" height="120" rx="22"/>
+  <text class="title" x="240" y="400">Persistência</text>
+  <text class="sub" x="240" y="430">SQLite · drafts · progresso</text>
+  <text class="sub" x="240" y="455">fichas · alunos · pagamentos</text>
+
+  <rect class="box" x="740" y="355" width="250" height="120" rx="22"/>
+  <text class="title" x="770" y="400">Supabase</text>
+  <text class="sub" x="770" y="430">Storage avatars</text>
+  <text class="sub" x="770" y="455">URLs seguras · sem JWT em imagem</text>
+
+  <path class="line" d="M310 205 H475"/>
+  <path class="line" d="M725 205 H890"/>
+  <path class="line" d="M600 265 C560 320 420 330 335 355"/>
+  <path class="line" d="M645 265 C700 330 805 330 865 355"/>
+</svg>

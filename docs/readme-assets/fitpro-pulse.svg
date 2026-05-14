@@ -1,0 +1,22 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1"><stop stop-color="#14532d"/><stop offset="1" stop-color="#84cc16"/></linearGradient>
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .label{fill:#cbd5e1;font-size:18px;font-weight:700}
+      .num{fill:#fff;font-size:22px;font-weight:900}
+      .b{fill:url(#bar);filter:drop-shadow(0 0 10px #22c55e);animation:rise 1.4s ease both}
+      @keyframes rise{from{transform:scaleX(.08);opacity:.3}to{transform:scaleX(1);opacity:1}}
+      @media (prefers-reduced-motion: reduce){.b{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="420" rx="30" fill="#020503"/>
+  <text x="54" y="58" fill="#f8fafc" font-size="34" font-weight="900">Pulse técnico do projeto</text>
+  <text x="54" y="88" fill="#86efac" font-size="17" font-weight="700">Snapshot do ZIP mais recente analisado nesta conversa</text>
+
+  <text class="label" x="80" y="150">Arquivos</text><rect class="b" x="260" y="126" width="710" height="34" rx="17"/><text class="num" x="1000" y="152">82</text>
+  <text class="label" x="80" y="205">Linhas</text><rect class="b" x="260" y="181" width="850" height="34" rx="17" style="animation-delay:.15s"/><text class="num" x="1000" y="207">14.825</text>
+  <text class="label" x="80" y="260">Docs/Sprints</text><rect class="b" x="260" y="236" width="520" height="34" rx="17" style="animation-delay:.30s"/><text class="num" x="1000" y="262">45 .md</text>
+  <text class="label" x="80" y="315">Backend</text><rect class="b" x="260" y="291" width="640" height="34" rx="17" style="animation-delay:.45s"/><text class="num" x="1000" y="317">11 .mjs</text>
+  <text class="label" x="80" y="370">Frontend</text><rect class="b" x="260" y="346" width="420" height="34" rx="17" style="animation-delay:.60s"/><text class="num" x="1000" y="372">TS + CSS</text>
+</svg>
